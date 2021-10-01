@@ -54,7 +54,7 @@ const Sender = ({onAddMessage}) => {
 
         onAddMessage({
             id: Date.now(),
-            avatar: "https://sun9-58.userapi.com/c836638/v836638514/867c/SPMigNB8gw0.jpg",
+            avatar: "./src/img/резюме.webp",
             message: value,
             date: new Date().toISOString(),
             is: "my",

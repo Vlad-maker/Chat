@@ -1,7 +1,8 @@
 import React, { useReducer, useEffect, useRef } from 'react';
 import PropTypes from "prop-types";
 import Item from './Item/Item';
-import { normalizeDialog } from './Item/helpers';
+import Title from './Title/Title';
+import { normalizeDialog } from './helpers';
 import reducer from './reducer';
 import data from '../../data';
 import './dialog.css';
@@ -46,14 +47,18 @@ const Dialog = ({ newMessage }) => {
 
     return (
         <div className="dialog">
-            <div className="overflow" ref={dialogRef}>
-                {normalizedDialog.map((item) => (
-                    <Item {...item} key={item.id}  onRemove={onRemove} />
-                ))}
-            </div>
+          <div className="overflow" ref={dialogRef}>
+            {normalizedDialog.map((item) =>
+              item.type === "message" ? (
+                <Item {...item} key={item.id} onRemove={onRemove} />
+              ) : (
+                <Title key={item.id} date={item.date} />
+              )
+            )}
+          </div>
         </div>
-    );
-};
+      );
+    };
 
 Dialog.propTypes = {
     newMessage: PropTypes.shape({
