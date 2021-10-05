@@ -12,6 +12,8 @@
 **Технологии:** 
 
 <img align="left" alt="React" width="30px" src="./src/img/css3.svg" />
-<img align="left" alt="React" width="30px" src="./src/img/javascript.svg />
-<img align="left" alt="React" width="30px" src="./src/img/reactRM.svg" />
+
+<img align="left" alt="JS" width="30px" src="./src/img/javascript.svg />
+
+<img align ="left" alt="React JS" width="30px" src="./src/img/reactRM.svg"/>
 
