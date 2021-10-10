@@ -11,7 +11,7 @@ const Sender = ({onAddMessage}) => {
 
         onAddMessage({
             id: Date.now(),
-            avatar: "https://hhcdn.ru/photo/607929075.jpeg?t=1633536207&h=v9SBBbbJ9Kg8TA3qsaEZWQ",
+            avatar: "https://scontent-arn2-1.xx.fbcdn.net/v/t1.18169-9/13770392_1194953457213863_7404529362049618726_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=r4bSy0SJfHQAX_Merln&_nc_ht=scontent-arn2-1.xx&oh=54d47e22c443517580d4db010689f28d&oe=618A4522",
             message: value,
             date: new Date().toISOString(),
             is: "my",

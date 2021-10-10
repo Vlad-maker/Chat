@@ -25,7 +25,7 @@ const dialog = [
     },
     {
       avatar:
-        "https://hhcdn.ru/photo/607929075.jpeg?t=1633536207&h=v9SBBbbJ9Kg8TA3qsaEZWQ",
+        "https://scontent-arn2-1.xx.fbcdn.net/v/t1.18169-9/13770392_1194953457213863_7404529362049618726_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=r4bSy0SJfHQAX_Merln&_nc_ht=scontent-arn2-1.xx&oh=54d47e22c443517580d4db010689f28d&oe=618A4522",
       message: "Привет! Это простой чат для общения",
       id: 3,
       date: "2021-10-05T05:09:04.712Z",
@@ -34,7 +34,7 @@ const dialog = [
     },
     {
       avatar:
-        "https://hhcdn.ru/photo/607929075.jpeg?t=1633536207&h=v9SBBbbJ9Kg8TA3qsaEZWQ",
+        "https://scontent-arn2-1.xx.fbcdn.net/v/t1.18169-9/13770392_1194953457213863_7404529362049618726_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=r4bSy0SJfHQAX_Merln&_nc_ht=scontent-arn2-1.xx&oh=54d47e22c443517580d4db010689f28d&oe=618A4522",
       message: "Можешь менять цветовую тему чата",
       id: 4,
       date: "2021-10-05T12:09:04.712Z",
@@ -43,7 +43,7 @@ const dialog = [
     },
     {
       avatar:
-        "https://hhcdn.ru/photo/607929075.jpeg?t=1633536207&h=v9SBBbbJ9Kg8TA3qsaEZWQ",
+        "https://scontent-arn2-1.xx.fbcdn.net/v/t1.18169-9/13770392_1194953457213863_7404529362049618726_n.jpg?_nc_cat=104&ccb=1-5&_nc_sid=174925&_nc_ohc=r4bSy0SJfHQAX_Merln&_nc_ht=scontent-arn2-1.xx&oh=54d47e22c443517580d4db010689f28d&oe=618A4522",
       message: "Отправлять и удалять сообщения",
       id: 5,
       date: "2021-10-05T13:01:04.712Z",
